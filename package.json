@@ -1,0 +1,40 @@
+{
+  "name": "gulp-hjson",
+  "description": "Convert Hjson and JSON for gulp",
+  "main": "index.js",
+  "author": "Christian Zangl",
+  "version": "0.1.0",
+  "tags": [
+    "json",
+    "hjson"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "hjson",
+    "json",
+    "config",
+    "comments",
+    "hjson",
+    "parser",
+    "serializer"
+  ],
+  "homepage": "http://laktak.github.io/hjson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/laktak/gulp-hjson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laktak/gulp-hjson/issues"
+  },
+  "dependencies": {
+    "hjson": "^0.2.0",
+    "event-stream": "3.1.5",
+    "through": "2.3.4"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/laktak/hjson-js/raw/master/LICENSE"
+    }
+  ]
+}
