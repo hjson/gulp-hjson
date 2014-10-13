@@ -3,7 +3,7 @@
   "description": "Convert Hjson and JSON for gulp",
   "main": "index.js",
   "author": "Christian Zangl",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "tags": [
     "json",
     "hjson"
@@ -27,9 +27,9 @@
     "url": "https://github.com/laktak/gulp-hjson/issues"
   },
   "dependencies": {
-    "hjson": "^0.2.0",
-    "event-stream": "3.1.5",
-    "through": "2.3.4"
+    "hjson": "^1.0.2",
+    "event-stream": "3.1.7",
+    "through": "2.3.6"
   },
   "licenses": [
     {
