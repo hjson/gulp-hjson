@@ -32,7 +32,7 @@
     "npm test"
   ],
   "dependencies": {
-    "hjson": "^1.3.0",
+    "hjson": "^1.4.0",
     "event-stream": "3.2.1",
     "through": "2.3.6"
   },
