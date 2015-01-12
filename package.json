@@ -3,7 +3,7 @@
   "description": "Convert Hjson and JSON for gulp",
   "main": "index.js",
   "author": "Christian Zangl",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "tags": [
     "json",
     "hjson"
@@ -32,7 +32,7 @@
     "npm test"
   ],
   "dependencies": {
-    "hjson": "^1.4.0",
+    "hjson": "^1.5.0",
     "event-stream": "3.2.1",
     "through": "2.3.6"
   },
