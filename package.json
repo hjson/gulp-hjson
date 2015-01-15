@@ -17,7 +17,7 @@
     "parser",
     "serializer"
   ],
-  "homepage": "http://laktak.github.io/hjson",
+  "homepage": "http://hjson.org",
   "repository": {
     "type": "git",
     "url": "git://github.com/laktak/gulp-hjson.git"
