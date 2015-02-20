@@ -3,11 +3,7 @@
   "description": "Convert Hjson and JSON for gulp",
   "main": "index.js",
   "author": "Christian Zangl",
-  "version": "1.5.0",
-  "tags": [
-    "json",
-    "hjson"
-  ],
+  "version": "1.6.1",
   "keywords": [
     "gulpplugin",
     "hjson",
@@ -15,7 +11,8 @@
     "config",
     "comments",
     "parser",
-    "serializer"
+    "serializer",
+    "human"
   ],
   "homepage": "http://hjson.org",
   "repository": {
@@ -32,8 +29,8 @@
     "npm test"
   ],
   "dependencies": {
-    "hjson": "^1.5.0",
-    "event-stream": "3.2.1",
+    "hjson": "^1.6.1",
+    "event-stream": "3.2.2",
     "through": "2.3.6"
   },
   "licenses": [
@@ -43,6 +40,6 @@
     }
   ],
   "devDependencies": {
-    "gulp": "^3.8.10"
+    "gulp": "^3.8.11"
   }
 }
