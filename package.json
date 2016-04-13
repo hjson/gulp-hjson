@@ -3,7 +3,7 @@
   "description": "Convert Hjson and JSON for gulp",
   "main": "index.js",
   "author": "Christian Zangl",
-  "version": "1.7.4",
+  "version": "1.8.0",
   "keywords": [
     "gulpplugin",
     "hjson",
@@ -29,17 +29,12 @@
     "npm test"
   ],
   "dependencies": {
-    "hjson": "^1.7.4",
-    "event-stream": "3.3.1",
+    "hjson": "^1.8.0",
+    "event-stream": "3.3.2",
     "through": "2.3.8"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/laktak/gulp-hjson/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.1"
   }
 }

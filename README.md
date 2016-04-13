@@ -22,9 +22,9 @@ Then, add it to your `gulpfile.js`:
 ```javascript
 var Hjson = require('gulp-hjson');
 
-gulp.task('json', function() {
-  gulp.src(['*.json'])
-    .pipe(Hjson({ to: 'hjson' }))
+gulp.task('hjson', function() {
+  gulp.src(['*.hjson'])
+    .pipe(Hjson({ to: 'json' }))
     .pipe(gulp.dest('output'));
 });
 ```

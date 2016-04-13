@@ -8,9 +8,8 @@ function root(p) { return path.join(__dirname, p); }
 
 gulp.task("hjson", function()
 {
-  var opts={ spare:true, quotes:true };
   return gulp.src([root("*.hjson")])
-    .pipe(hjson({ to: "hjson" }))
+    .pipe(hjson({ to: "json" }))
     .pipe(gulp.dest(root("out")));
 });
 
