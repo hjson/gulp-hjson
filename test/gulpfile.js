@@ -9,7 +9,7 @@ function root(p) { return path.join(__dirname, p); }
 gulp.task("hjson", function()
 {
   return gulp.src([root("*.hjson")])
-    .pipe(hjson({ to: "json" }))
+    .pipe(hjson({ to: "json", jsonSpace: "  " }))
     .pipe(gulp.dest(root("out")));
 });
 

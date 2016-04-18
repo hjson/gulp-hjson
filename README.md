@@ -35,6 +35,10 @@ gulp.task('hjson', function() {
 
 Convert to JSON.
 
+### { to: 'json', jsonSpace: '  ' }
+
+Convert to formatted JSON.
+
 ### { to: 'hjson' }
 
 Convert to Hjson.

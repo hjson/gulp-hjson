@@ -16,7 +16,7 @@ module.exports=function(options)
     {
       case 'json':
         file.path=name+".json";
-        return JSON.stringify(data);
+        return JSON.stringify(data, null, options.jsonSpace);
       case 'hjson':
         file.path=name+".hjson";
         return Hjson.stringify(data);
