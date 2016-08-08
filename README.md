@@ -5,9 +5,9 @@
 
 Hjson plugin for gulp, converts from and to JSON.
 
-[Hjson](http://hjson.org), the Human JSON. A configuration file format that caters to humans and helps reduce the errors they make.
+[Hjson](http://hjson.org), the Human JSON. A configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
 
-It supports `#`, `//` and `/**/` style comments as well as avoiding trailing/missing comma and other mistakes. For details and syntax see [hjson.org](http://hjson.org).
+For details and syntax see [hjson.org](http://hjson.org).
 
 ## Usage
 
