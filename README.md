@@ -1,6 +1,6 @@
 # gulp-hjson
 
-[![Build Status](https://img.shields.io/travis/laktak/gulp-hjson.svg?style=flat-square)](http://travis-ci.org/laktak/gulp-hjson)
+[![Build Status](https://img.shields.io/travis/hjson/gulp-hjson.svg?style=flat-square)](http://travis-ci.org/hjson/gulp-hjson)
 [![NPM version](https://img.shields.io/npm/v/gulp-hjson.svg?style=flat-square)](http://www.npmjs.com/package/gulp-hjson)
 
 Hjson plugin for gulp, converts from and to JSON.
